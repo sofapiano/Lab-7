@@ -8,7 +8,6 @@ def fetch_data(url):
         return response.json()
     else:
         print(f"Ошибка: {response.status_code}")
-        return None
 
 
 if __name__ == "__main__":
